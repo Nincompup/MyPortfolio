@@ -12,11 +12,11 @@ const Experties = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`paddings yPaddings innerWidth flexCenter ${css.container}`}>
+        className={`row  paddings yPaddings innerWidth flexCenter ${css.container}`}>
 
 
             {/* left side */}
-            <div className={css.leftSide}>
+            <div style={{display: 'flex', flexDirection: 'column',justifyContent: 'center',height: '20rem'}} className={`col-sm-12 col-xl-12 col-md-6 ${css.leftSide}`}>
                 {
                     projectExperience.map((exp, i)=> {
                         return <motion.div variants = {fadeIn("right", "tween", (i+1)*0.2, 1)} className={css.exp} key={i}>
@@ -36,22 +36,11 @@ const Experties = () => {
             {/* right */}
             <motion.div
             variants={textVariant(0.5)}
-            className={css.rightSide}>
+            className={`col-sm-12 col-xs-12 col-md-6   ${css.rightSide}`}>
 
-                <span className='primaryText'>What do I help? </span>
+                <span className='primaryText'>What do I do? </span>
                 {WhatDoIHelp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph}</span>)}
 
-
-                <div className={`flexCenter ${css.stats}`}>
-                    <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>285+</span>
-                        <span className='secondaryText'>Project Completed</span>
-                    </div>
-                    <div className={`flexCenter ${css.stat}`}>
-                        <span className='primaryText'>190+</span>
-                        <span className='secondaryText'>Happy Clients</span>
-                    </div>
-                </div>
             </motion.div>
         </motion.div>
     </section>

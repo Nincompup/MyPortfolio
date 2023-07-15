@@ -3,29 +3,28 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Website Development And  Design",
+    projects: 4,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
-  {
-    name: "Mobile App Design",
-    projects: 63,
-    icon: CiMobile1,
-    bg: "#EEC048",
-  },
-  {
-    name: "Brand Identity",
-    projects: 47,
-    icon: MdWorkspacesOutline,
-    bg: "#F26440",
-  },
+  // {
+  //   name: "Mobile App Design",
+  //   projects: 63,
+  //   icon: CiMobile1,
+  //   bg: "#EEC048",
+  // },
+  // {
+  //   name: "Brand Identity",
+  //   projects: 47,
+  //   icon: MdWorkspacesOutline,
+  //   bg: "#F26440",
+  // },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
-];
+  " I build modern, responsive websites tailored to client's specific needs. From sleek and stylish portfolio sites to robust e-commerce platforms, I create custom solutions that align with client's brand and engage  target audience.",
+  "I believe in a collaborative approach, working closely with my clients to understand their goals and objectives. I take pride in delivering high-quality solutions that not only meet their requirements but exceed their expectations."];
 
 export const workExp = [
   {

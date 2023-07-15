@@ -22,23 +22,22 @@ const Header = () => {
       variants={headerVariants}
       initial="hidden"
       whileInView="show"
-      className={`bg-primary paddings ${css.wrapper}`}
+      className={` paddings ${css.wrapper}`}
       viewport={{ once: true, amount: 0.25 }}
-      style={{boxShadow: headerShadow}}
+      style={{boxShadow: headerShadow,backgroundColor:'#272a3b'}}
+
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Binjan</div>
+        <h1 style={{fontSize:'30px'}} className={css.name}>ॐ</h1>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
           <li><a href="#experties">Services</a></li>
-          <li><a href="#work">Experience</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#people">Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
-            <p>+001 (313) 345 678</p>
+            <p>+91 (9359838609)</p>
             <BiPhoneCall size={"40px"} />
           </li>
         </ul>
