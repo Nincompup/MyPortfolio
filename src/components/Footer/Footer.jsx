@@ -9,7 +9,9 @@ const Footer = () => {
     initial="hidden"
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
-    className={`paddings ${css.wrapper}`}>
+    className={`paddings ${css.wrapper}`}
+    style={{backgroundColor:'#13162b',color:'white'}}
+    >
       
       
       <motion.div

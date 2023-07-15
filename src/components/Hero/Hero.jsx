@@ -4,7 +4,7 @@ import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
 const Hero = () => {
   return (
-    <section className={`paddings ${css.wrapper}`}>
+    <section className={`paddings ${css.wrapper}`} style={{color: 'white'}}>
       <motion.div
         variants={staggerContainer}
         initial="hidden"

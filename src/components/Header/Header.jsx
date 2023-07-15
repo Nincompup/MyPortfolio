@@ -24,7 +24,7 @@ const Header = () => {
       whileInView="show"
       className={` paddings ${css.wrapper}`}
       viewport={{ once: true, amount: 0.25 }}
-      style={{boxShadow: headerShadow,backgroundColor:'#272a3b'}}
+      style={{boxShadow: headerShadow,backgroundColor:'#1c2036',color: 'white'}}
 
     >
       <div className={`innerWidth ${css.container} flexCenter`}>

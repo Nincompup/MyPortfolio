@@ -11,7 +11,7 @@ const Portfolio = () => {
     whileInView="show"
     viewport={{ once: false, amount: 0.25 }}
     className={`paddings ${css.wrapper}`}
-    style={{backgroundColor:'rgb(32, 30, 16)'}}
+    style={{backgroundColor:'rgb(32, 30, 16)',color:'white'}}
     >
 
       <a className="anchor" id="portfolio"></a>

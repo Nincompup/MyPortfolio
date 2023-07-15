@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 import {fadeIn, staggerContainer, textVariant} from '../../utils/motion.js'
 const Experties = () => {
   return (
-    <section className={css.wrapper}>
+    <section className={css.wrapper} style={{backgroundColor:'#13162b',color:'white'}}>
         <a className="anchor" id="experties"></a>
         <motion.div
         variants={staggerContainer}
