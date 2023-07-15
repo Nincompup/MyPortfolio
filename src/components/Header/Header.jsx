@@ -30,7 +30,7 @@ const Header = () => {
       <div className={`innerWidth ${css.container} flexCenter`}>
         <h1 style={{fontSize:'30px'}} className={css.name}>ॐ</h1>
         <ul
-          className={`flexCenter ${css.menu}`}
+          className={`flexCenter ${css.menu} bg-dark`}
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
