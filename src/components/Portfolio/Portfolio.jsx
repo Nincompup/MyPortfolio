@@ -31,16 +31,16 @@ const Portfolio = () => {
         <div className={`flexCenter ${css.showCase}`}>
         {/* <Link to=""> */}
         <div style={{display: "flex",flexDirection: "column",alignItems: "center"}}>
-     <a href="https://www.youtube.com/watch?v=YOAeBSCkArA/">
+     <a href="https://cryto-connect.vercel.app/">
             <motion.img style={{borderRadius: "25px"}} height={300} width={400} variants={fadeIn("up", "tween", .5, .6)} src="./p1.png" alt="project" />
             </a>
             <h3>CryptoConnect</h3>
             </div>
         <div style={{display: "flex",flexDirection: "column",alignItems: "center"}}>
-     <a href="https://www.youtube.com/watch?v=YOAeBSCkArA/">
+     <a href="https://cbankkindia.onrender.com/">
             <motion.img style={{borderRadius: "25px"}} height={300} width={400} variants={fadeIn("up", "tween", .5, .6)} src="./p1.png" alt="project" />
             </a>
-            <h3>CryptoConnect</h3>
+            <h3>CBI</h3>
             </div>
         <div style={{display: "flex",flexDirection: "column",alignItems: "center"}}>
      <a href="https://bloggerstop.netlify.app/posts">
