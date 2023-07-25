@@ -38,7 +38,7 @@ const Portfolio = () => {
             </div>
         <div style={{display: "flex",flexDirection: "column",alignItems: "center"}}>
      <a href="https://cbankkindia.onrender.com/">
-            <motion.img style={{borderRadius: "25px"}} height={300} width={400} variants={fadeIn("up", "tween", .5, .6)} src="./p1.png" alt="project" />
+            <motion.img style={{borderRadius: "25px"}} height={300} width={400} variants={fadeIn("up", "tween", .5, .6)} src="./p3.png" alt="project" />
             </a>
             <h3>CBI</h3>
             </div>
